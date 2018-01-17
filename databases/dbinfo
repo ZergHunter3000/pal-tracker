@@ -1,0 +1,56 @@
+ "VCAP_SERVICES": {
+  "p-mysql": [
+   {
+    "credentials": {
+     "hostname": "192.168.16.87",
+     "jdbcUrl": "jdbc:mysql://192.168.16.87:3306/cf_5b9c50bd_85b8_4d39_a299_30be1c337ece?user=t9KlpvBm6rnGfHbV\u0026password=wkJMlDAYj5kxfjjY",
+     "name": "cf_5b9c50bd_85b8_4d39_a299_30be1c337ece",
+     "password": "wkJMlDAYj5kxfjjY",
+     "port": 3306,
+     "uri": "mysql://t9KlpvBm6rnGfHbV:wkJMlDAYj5kxfjjY@192.168.16.87:3306/cf_5b9c50bd_85b8_4d39_a299_30be1c337ece?reconnect=true",
+     "username": "t9KlpvBm6rnGfHbV"
+    },
+    "label": "p-mysql",
+    "name": "tracker-database",
+    "plan": "100mb",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "mysql",
+     "relational"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
+
+
+
+{
+ "VCAP_SERVICES PROD": {
+  "p-mysql": [
+   {
+    "credentials": {
+     "hostname": "192.168.16.87",
+     "jdbcUrl": "jdbc:mysql://192.168.16.87:3306/cf_4740fcf8_9638_4f26_b87a_0d7f19382633?user=FuYySnsyrg0UZXIw\u0026password=dzVsfItmocuGX5hp",
+     "name": "cf_4740fcf8_9638_4f26_b87a_0d7f19382633",
+     "password": "dzVsfItmocuGX5hp",
+     "port": 3306,
+     "uri": "mysql://FuYySnsyrg0UZXIw:dzVsfItmocuGX5hp@192.168.16.87:3306/cf_4740fcf8_9638_4f26_b87a_0d7f19382633?reconnect=true",
+     "username": "FuYySnsyrg0UZXIw"
+    },
+    "label": "p-mysql",
+    "name": "tracker-database",
+    "plan": "100mb",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "mysql",
+     "relational"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
