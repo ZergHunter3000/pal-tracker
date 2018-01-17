@@ -5,3 +5,5 @@ applications:
   host: pal-tracker-cheerful-tasmanian-devil
   services:
   - tracker-database
+  env:
+    SECURITY_FORCE_HTTPS: true
